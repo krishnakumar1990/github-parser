@@ -20,9 +20,9 @@ const Repository = (props) => {
           <div className="repo-desc">
             <h4>
               <b>{repo.name}</b>
-              <a className={repo.name} onClick={props.onClick}>
+              <button className={repo.name} onClick={props.onClick}>
                 View Commits
-              </a>
+              </button>
             </h4>
             <p>
               <span>{repo.description}</span>

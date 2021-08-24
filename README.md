@@ -5,6 +5,7 @@
 ![Github Parser](parser.gif)
 ## Prerequisites
 
+### Environment Setup
 To run this application, you should have the following applications or softwares installed on your machine: 
 
 * Make sure that you have the latest version of [Node](https://nodejs.org/en/) installed on your machine. You can verify if node is installed, by running the following command in a terminal window: 
@@ -12,18 +13,28 @@ To run this application, you should have the following applications or softwares
 * A package manager called npm. It is automatically included in your installation of Node.
 * A good code editor to work with our project files. I highly recommend using the editor Visual Studio Code. You can grab it at [code.visualstudio.com](https://code.visualstudio.com/).
 
+### Generate Git personal access token
+
+* Follow the steps to create a new [personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+* Make a note of the `personal access token`, as we might need this in the next section.
+
+
+
 ## Steps
 
 1. After cloning the repository to your local machine, open the `github-parser` directory in a terminal window.
-2. Run `npm install` command to install all dependencies in the local node_modules folder. If you encounter permission issues, try to add `sudo` to your command `sudo npm isntall` and re run it. 
-3. After successfully installing all dependencies, run `npm start` command. 
-4. If everything goes well, you should be able to see a `localhost:3000` window open up on your browser.
-5. Provide an `Organization` name and click on the `Search Github` button. 
-6. If your `Organization` is invalid, you would see an error message : `Please enter a valid Organization`
-7. Enter `Netflix` as the organization name, and click on the `Search Github` button. 
-8. After a validation check, and after fetching the results from Github API, the list of repositories available in this organization will be displayed as card layout.
-9. You can also view the total number of repositories under this organization.
-10. Each repository card would contain the following information
+2. Navigate to the following directory and open the `src/Main.jsx` file.
+3. In line #9, replace the `<Enter your Personal Access Token>` with the your `Personal Access Token` obtained from the Generate Git personal access token section.
+4. Save your changes and navigate back to the root folder of the project. 
+5. Run `npm install` command to install all dependencies in the local node_modules folder. If you encounter permission issues, try to add `sudo` to your command `sudo npm isntall` and re run it. 
+6. After successfully installing all dependencies, run `npm start` command. 
+7. If everything goes well, you should be able to see a `localhost:3000` window open up on your browser.
+8. Provide an `Organization` name and click on the `Search Github` button. 
+9. If your `Organization` is invalid, you would see an error message : `Please enter a valid Organization`
+10. Enter `Netflix` as the organization name, and click on the `Search Github` button. 
+11. After a validation check, and after fetching the results from Github API, the list of repositories available in this organization will be displayed as card layout.
+12. You can also view the total number of repositories under this organization.
+13. Each repository card would contain the following information
    1. Repository name 
    2. Description (can contain `null` values in it)
    3. Metadata

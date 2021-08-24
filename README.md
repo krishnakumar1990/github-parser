@@ -2,6 +2,7 @@
 
 **Github parser** is a simple and interactive web application build for users who wants to quickly browse organizations, view their repositories, and explore recent commits made by contributors.  This tool will be a life-saver for users who believe that Github UI is too complicated for some basic operations. It removes the need to authenticate, simplifies the UI elements, and makes it much more user-friendly. Let's get started. 
 
+![Github Parser](parser.gif)
 ## Prerequisites
 
 To run this application, you should have the following applications or softwares installed on your machine: 

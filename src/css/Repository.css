@@ -29,6 +29,13 @@
   text-overflow: clip;
 }
 
+h4 a {
+  color: black;
+  float: right;
+  text-decoration: underline;
+  font-size: 0.8vw;
+}
+
 span {
   text-overflow: ellipsis;
   white-space: nowrap;

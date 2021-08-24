@@ -8,7 +8,7 @@ import Commit from "./Commit";
 const myHeaders = new Headers();
 myHeaders.append(
   "Authorization",
-  "Bearer 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"
+  "Bearer <Enter your Personal Access Token>"
 );
 
 const requestOptions = {

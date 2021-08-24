@@ -18,8 +18,11 @@ const Repository = (props) => {
       {props.repos.map((repo) => (
         <div key={repo.id} className="repo-name">
           <div className="repo-desc">
-            <h4 className={repo.name} onClick={props.onClick} value={repo.name}>
+            <h4>
               <b>{repo.name}</b>
+              <a className={repo.name} onClick={props.onClick}>
+                View Commits
+              </a>
             </h4>
             <p>
               <span>{repo.description}</span>

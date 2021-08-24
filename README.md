@@ -47,6 +47,7 @@ To run this application, you should have the following applications or softwares
 2. Add additional `sort by` metrics for repositories. 
 3. Include `pagination` for repositories.
 4. Include a `branch selector` dropdown for commit window to sort last commits based off branches.
+5. Use GraphQL API for faster response time and data handling
 
 
 

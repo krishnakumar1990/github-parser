@@ -8,7 +8,7 @@ import Commit from "./Commit";
 const myHeaders = new Headers();
 myHeaders.append(
   "Authorization",
-  "Bearer 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"
+  "Bearer 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"
 );
 
 const requestOptions = {

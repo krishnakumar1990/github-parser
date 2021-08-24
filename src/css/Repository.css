@@ -29,11 +29,15 @@
   text-overflow: clip;
 }
 
-h4 a {
+h4 button {
   color: black;
   float: right;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 0.8vw;
+  border: 0px;
+  background-color:rgba(6, 49, 241, 0.2);
+  border-radius: 5px;
+  padding: 3px;
 }
 
 span {
